@@ -43,6 +43,10 @@ By default, MMS is automatically triggered in each of these cases, although admi
 - The user is being migrated from the cloud to Skype for Business Server on-premises.
 
 In these situations, end users can use the [Meeting Migration Tool](https://www.microsoft.com/download/details.aspx?id=51659) to migrate their own meetings instead.
+Please note that the Meeting Migration Tool can only migrate meetings from Skype for Business on-premises to Skype for Business Online.
+We do not currently have a tool that would migrate meetings from Skype for Business on-premises to Teams in a context when the mailboxes are still in Exchange On premise.
+The meeting you migrate with the Meeting Migration Tool towards Skype for Business Online will have to be manually recreated with Teams, before the 31 July 2021, which is the Skype Online end of life.
+
 
 ## How MMS works
 
